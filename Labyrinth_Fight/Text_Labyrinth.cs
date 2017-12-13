@@ -12,7 +12,7 @@ namespace Labyrinth_Fight
             {
                 
                 // Read the file as one string.
-                string text = System.IO.File.ReadAllText(@"C:\Users\DCP\Documents\Labyrinth\laby_test.txt");
+                string text = System.IO.File.ReadAllText(@"C:\Users\DCP\source\repos\Labyrinth_Fight\Labyrinth\laby_test.txt");
 
                 // Display the file contents to the console. Variable text is a string.
                 System.Console.WriteLine("Contents of WriteText.txt = {0}", text);
