@@ -13,11 +13,11 @@ namespace Labyrinth_Fight
             {
 
             // Read the file as one string.
-                string text = System.IO.File.ReadAllText("../../../laby_test.txt");
+                string text = File.ReadAllText("../../../laby_test.txt");
 
 
                 // Display the file contents to the console. Variable text is a string.
-                System.Console.WriteLine("Contents of WriteText.txt = {0}", text);
+                System.Console.WriteLine(text);
                 System.Console.ReadKey();
              // Example #2
              // Read each line of the file into a string array. Each element
