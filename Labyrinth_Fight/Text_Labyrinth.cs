@@ -17,7 +17,7 @@ namespace Labyrinth_Fight
                 // Display the file contents to the console. Variable text is a string.
                 System.Console.WriteLine("Contents of WriteText.txt = {0}", text);
                 System.Console.ReadKey();
-            /* // Example #2
+             // Example #2
              // Read each line of the file into a string array. Each element
              // of the array is one line of the file.
                  string[] lines = System.IO.File.ReadAllLines(@"C:\Users\DCP\Documents\Labyrinth\WriteLines2.txt");
@@ -28,11 +28,11 @@ namespace Labyrinth_Fight
                  {
                      // Use a tab to indent each line of the file.
                      Console.WriteLine("\t" + line);
-                 }*/
+                 }
 
             // Keep the console window open in debug mode.
-            //Console.WriteLine("Press any key to exit.");
-            //System.Console.ReadKey();
+            Console.WriteLine("Press any key to exit.");
+            System.Console.ReadKey();
             }
         }
 }
