@@ -29,6 +29,7 @@ namespace Labyrinth_Fight
                      // Use a tab to indent each line of the file.
                      Console.WriteLine("\t" + line);
                  }
+                 //ici c'est paris cousin 
 
             // Keep the console window open in debug mode.
             Console.WriteLine("Press any key to exit.");
